@@ -10,9 +10,4 @@ def hello_world():
          break
 
 
-#def hello_world1():
-#    while True():
-#        print ("Hello World1 !!!")
-#        break
-
 hello_world()
