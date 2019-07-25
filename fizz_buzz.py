@@ -1,5 +1,9 @@
 #!/usr/bin/python3.6
 
+'''
+Enter a number, If the number is divisible by 3 then Buzz will display and if divisible by 5 then display Fizz and if number is divisible by both 3 and 5 then it will show the number. 
+'''
+
 def fizz_buzz(x):
     d = bool(x % 5)
     f = bool(x % 3)

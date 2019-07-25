@@ -1,6 +1,10 @@
 #!/usr/bin/python
 import sys
 
+'''
+This program will show you the odd and even numbers in a range. 
+'''
+
 def showNumbers(limit):
     for i in range(limit + 1):
         if i % 2 == 0:

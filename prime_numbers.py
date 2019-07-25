@@ -1,5 +1,9 @@
 #!/usr/bin/python3.6
 
+'''
+Show the all prime numbers from 2 to specified number and also show if that number is prime or not.
+'''
+
 def prime_number_till(num):
     LIST = []
     RANLIST = []

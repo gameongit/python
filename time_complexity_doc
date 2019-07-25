@@ -1,0 +1,52 @@
+'''
+1. Constant time — O(1)   - There is always a fixed number of operations
+
+def constant(n):
+  result = n * n
+  return result
+
+2. Logarithmic time — O(log n) - The value of n is halved on each iteration of the loop. If n = 2x then log n = x. How long would the program below take to execute, depending on the input data?
+
+def logarithmic(n):
+  result = 0
+  while n > 1:
+     n //= 2
+     result += 1
+  return result
+
+3. Linear time — O(n)
+
+def linear(n, A):
+  for i in xrange(n):
+     if A[i] == 0:
+       return 0
+  return 1
+
+4. Quadratic time — O(n2)
+
+def quadratic(n):
+  result = 0
+  for i in xrange(n):
+     for j in xrange(i, n):
+         result += 1
+  return result
+
+5. Linear time — O(n + m)
+
+def linear2(n, m):
+  result = 0
+  for i in xrange(n):
+      result += i
+  for j in xrange(m):
+      result += j
+  return result
+
+
+TIME LIMIT
+
+n <= 1 000 000, the expected time complexity is O(n) or O(n log n),
+n <= 10 000, the expected time complexity is O(n2),
+n <= 500, the expected time complexity is O(n3).
+
+'''
+
